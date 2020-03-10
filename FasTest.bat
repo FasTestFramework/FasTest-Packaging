@@ -3,10 +3,7 @@ echo %cd%
 PushD "%~dp0"
 echo *****************************************************************************
 echo current directory %~dp0
-set jdkPath=%~dp0\jdk1.8.0_211\bin
 set InstallerJARName=fastest-automation-1.0.0-SNAPSHOT.jar
-echo JDK path: %jdkPath%
-set path=%jdkPath%
 set configPropertyPath=%~dp0\conf\fastest.properties
 echo configuration property file path: %configPropertyPath%
 echo ******************************************************************************
